@@ -202,7 +202,7 @@ ostream &operator<<(ostream &output, HugeInt &num)
 HugeInt HugeInt::operator *(const HugeInt &op2) const
 {
 	if (size == 0 || op2.size == 0)
-		return 0L;
+		return 0;
 
 	HugeInt tempInt, result;
 
